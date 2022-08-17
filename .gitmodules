@@ -1,0 +1,15 @@
+[submodule "lib/solmate"]
+	ignore = dirty
+	path = lib/solmate
+	url = https://github.com/rari-capital/solmate
+[submodule "lib/forge-std"]
+	ignore = dirty
+	path = lib/forge-std
+	url = https://github.com/brockelmore/forge-std
+[submodule "lib/openzeppelin-contracts"]
+	ignore = dirty
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "lib/clones-with-immutable-args"]
+	path = lib/clones-with-immutable-args
+	url = https://github.com/stevennevins/clones-with-immutable-args

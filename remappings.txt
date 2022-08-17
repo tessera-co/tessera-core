@@ -1,0 +1,6 @@
+@rari-capital/solmate/src/=lib/solmate/src/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts
+forge-std/=lib/forge-std/src/
+ds-test/=lib/clones-with-immutable-args/lib/ds-test/src/
+clones-with-immutable-args/=lib/clones-with-immutable-args/
+weird-erc20/=lib/solmate/lib/weird-erc20/src/

@@ -1,0 +1,110 @@
+# Solidity API
+
+## REGISTRY_MINT_SIGNATURE
+
+```solidity
+uint256 REGISTRY_MINT_SIGNATURE
+```
+
+## REGISTRY_MINT_SIG_PTR
+
+```solidity
+uint256 REGISTRY_MINT_SIG_PTR
+```
+
+## REGISTRY_MINT_TO_PRT
+
+```solidity
+uint256 REGISTRY_MINT_TO_PRT
+```
+
+## REGISTRY_MINT_VALUE_PTR
+
+```solidity
+uint256 REGISTRY_MINT_VALUE_PTR
+```
+
+## REGISTRY_MINT_LENGTH
+
+```solidity
+uint256 REGISTRY_MINT_LENGTH
+```
+
+## REGISTRY_BURN_SIGNATURE
+
+```solidity
+uint256 REGISTRY_BURN_SIGNATURE
+```
+
+## REGISTRY_BURN_SIG_PTR
+
+```solidity
+uint256 REGISTRY_BURN_SIG_PTR
+```
+
+## REGISTRY_BURN_FROM_PTR
+
+```solidity
+uint256 REGISTRY_BURN_FROM_PTR
+```
+
+## REGISTRY_BURN_VALUE_PTR
+
+```solidity
+uint256 REGISTRY_BURN_VALUE_PTR
+```
+
+## REGISTRY_BURN_LENGTH
+
+```solidity
+uint256 REGISTRY_BURN_LENGTH
+```
+
+## MINT_ERROR_SIGNATURE
+
+```solidity
+uint256 MINT_ERROR_SIGNATURE
+```
+
+## MINT_ERROR_SIG_PTR
+
+```solidity
+uint256 MINT_ERROR_SIG_PTR
+```
+
+## MINT_ERROR_ACCOUNT_PTR
+
+```solidity
+uint256 MINT_ERROR_ACCOUNT_PTR
+```
+
+## MINT_ERROR_LENGTH
+
+```solidity
+uint256 MINT_ERROR_LENGTH
+```
+
+## BURN_ERROR_SIGNATURE
+
+```solidity
+uint256 BURN_ERROR_SIGNATURE
+```
+
+## BURN_ERROR_SIG_PTR
+
+```solidity
+uint256 BURN_ERROR_SIG_PTR
+```
+
+## BURN_ERROR_ACCOUNT_PTR
+
+```solidity
+uint256 BURN_ERROR_ACCOUNT_PTR
+```
+
+## BURN_ERROR_LENGTH
+
+```solidity
+uint256 BURN_ERROR_LENGTH
+```
+

@@ -1,0 +1,17 @@
+# Node
+node_modules
+
+# Forge
+cache/
+out/
+test/blacksmith/
+
+# Hardhat
+artifacts/
+hh-cache/
+
+# Environment
+.env
+
+# IDE 
+.idea/

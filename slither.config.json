@@ -1,0 +1,16 @@
+{
+  "detectors_to_exclude": "solc-version,pragma,assembly,missing-zero-check,naming-convention,too-many-digits",
+  "exclude_informational": false,
+  "exclude_low": false,
+  "exclude_medium": false,
+  "exclude_high": false,
+  "filter_paths": "lib",
+  "solc_remaps": [
+    "@rari-capital/solmate/src/=lib/solmate/src/",
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "forge-std/=lib/forge-std/src/",
+    "ds-test/=lib/clones-with-immutable-args/lib/ds-test/src/",
+    "clones-with-immutable-args/=lib/clones-with-immutable-args/",
+    "weird-erc20/=lib/solmate/lib/weird-erc20/src/"
+  ]
+}
