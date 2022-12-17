@@ -30,7 +30,10 @@ abstract contract SafeSend {
     function _sendEthOrWeth(address _to, uint256 _value) internal {
         if (!_attemptETHTransfer(_to, _value)) {
             WETH(WETH_ADDRESS).deposit{value: _value}();
-            WETH(WETH_ADDRESS).transfer(_to, _value);
+            require(
+                WETH(WETH_ADDRESS).transfer(_to, _value),
+                "WETH: Transfer Transfer not successful"
+            );
         }
     }
 }
