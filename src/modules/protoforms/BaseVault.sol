@@ -60,7 +60,7 @@ contract BaseVault is IBaseVault, MerkleBase, Minter, Multicall {
         uint256[] calldata _amounts
     ) external {
         for (uint256 i = 0; i < _tokens.length; ) {
-            IERC20(_tokens[i]).transferFrom(msg.sender, _to, _amounts[i]);
+            require(IERC20(_tokens[i]).transferFrom(msg.sender, _to, _amounts[i]), "ERC20: transferFrom is fall");
             unchecked {
                 ++i;
             }
